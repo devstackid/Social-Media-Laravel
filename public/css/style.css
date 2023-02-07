@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* modal */
+.modal-sheet .modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+  }
+  .modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+  }
+  
+  .modal-alert .modal-dialog {
+    width: 380px;
+  }
+  
+  .modal-tour .modal-dialog {
+    width: 380px;
+  }
+
+  
+  
+ 
+
+
+
+  /*css3 design scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {     
+  background-color: inherit;
+  border-radius: 5px;    
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9ef7ff;
+  border-radius: 5px;
+  border-radius: 10px;
+}
+
+/*support google chrome*/
+::-webkit-input-placeholder{
+	color: white;
+  font-weight: 400;
+}
+ 
+/*support mozilla*/
+:-moz-input-placeholder{
+	color: white;
+  font-weight: 400;
+}
+ 
+/*support internet explorer*/
+:-ms-input-placeholder{
+	color: white;
+  font-weight: 400;
+}
+
+/* media */
+@media screen and (max-width: 768px){
+  .profileColumn{
+    display: none;
+  }
+
+  #show{
+    display: block !important;
+  }
+
+  .wide{
+    width: 67vw;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .cari{
+    width: 80% !important;
+  }
+  .accountColumn{
+    display: none;
+  }
+  .jancoy{
+    display: none !important;
+  }
+
+  .wrapperPostingan{
+    height: 80vh !important;
+  }
+  .wide{
+    width: 100vw;
+    margin-top: 3rem;
+  }
+  .atas{
+    display: block !important;
+  }
+
+  .bawah{
+    display: block !important;
+  }
+}
